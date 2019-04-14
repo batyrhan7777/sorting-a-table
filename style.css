@@ -1,0 +1,20 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+table tbody tr th{
+    border-bottom: 2px solid gray;
+    font-size: 18px;
+}
+table tbody tr td{
+    border-bottom: 1px solid gray;
+}
+table tbody th, td{
+    padding-right: 60px;
+}
+table tbody tr:nth-child(2n){
+    background: #F0F8FF;
+}
